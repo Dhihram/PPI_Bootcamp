@@ -1,0 +1,20 @@
+#coding
+
+hide everything ⟶ Menyembunyikan semua chain dari scene
+show cartoon, chain A or chain B 
+color yellow, chain A 
+color yellow, chain B
+select active_site2, resi 181 and chain B
+select active_site1, resi 181 and chain A
+ 
+color magenta, active_site1
+color magenta, active_site2
+
+select binding_site1, resi 62-70 
+select binding_site2, resi 85
+
+color green, binding_site1
+color green, binding_site2
+
+select target_site,  resi 9
+color red, target_site
